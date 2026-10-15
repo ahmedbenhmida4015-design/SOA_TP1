@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DevPlatform organisation="FSS-DevTeam">
+    <Projets>
+        <Projet id="PRJ-01" lang="TypeScript">
+            <Nom>OptiHive Core</Nom>
+            <Statut>En_Cours</Statut>
+            <Equipe>
+                <Developpeur id="DEV-101" role="Lead">
+                    <Nom>Ahmed</Nom>
+                    <Email>ahmed@fss.tn</Email>
+                </Developpeur>
+                <Developpeur id="DEV-102" role="Backend">
+                    <Nom>Mariem</Nom>
+                    <Email>mariem@fss.tn</Email>
+                </Developpeur>
+            </Equipe>
+            <Taches>
+                <Tache id="T-1" priorite="Haute" type="Bug">
+                    <Titre>Erreur de segmentation dans le middleware JWT</Titre>
+                    <TempsEstime>4</TempsEstime>
+                    <Etat>Ferme</Etat>
+                </Tache>
+                <Tache id="T-2" priorite="Moyenne" type="Feature">
+                    <Titre>Ajout du support WebSockets pour le chat</Titre>
+                    <TempsEstime>12</TempsEstime>
+                    <Etat>En_Cours</Etat>
+                </Tache>
+            </Taches>
+        </Projet>
+        <Projet id="PRJ-02" lang="Java">
+            <Nom>SOA Service Registry</Nom>
+            <Statut>termine</Statut>
+            <Equipe>
+                <Developpeur id="DEV-103" role="Architecte">
+                    <Nom>Youssef</Nom>
+                    <Email>youssef@fss.tn</Email>
+                </Developpeur>
+            </Equipe>
+            <Taches>
+                <Tache id="T-3" priorite="Basse" type="Refactoring">
+                    <Titre>Nettoyage des endpoints SOAP dépréciés</Titre>
+                    <TempsEstime>6</TempsEstime>
+                    <Etat>Ferme</Etat>
+                </Tache>
+            </Taches>
+        </Projet>
+    </Projets>
+</DevPlatform>
